@@ -41,7 +41,7 @@
         <div class="navbar-item">
           <div class="buttons">
             <a
-              class="button is-primary"
+              class="button is-success"
               href="http://foodnotbombs.net/new_site/donate.php"
               target="__blank"
             >
