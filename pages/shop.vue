@@ -1,14 +1,13 @@
 <template>
   <NuxtLayout>
-    <TheHero />
     <div class="container">
-      <TheContent />
+      {{ products }}
     </div>
   </NuxtLayout>
 </template>
 
 <script setup>
-const products = await $fetch("/routes/shop");
+const products = await $fetch("/api/products");
 </script>
 
 <style></style>
