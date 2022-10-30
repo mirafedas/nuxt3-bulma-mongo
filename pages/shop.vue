@@ -3,21 +3,19 @@
     <section class="section">
       <h1 class="title">Shop</h1>
       <p>All items are available for preorder.</p>
-      <div class="columns my-6">
+      <div class="my-6">
         <article
           v-for="product in products"
           :key="product.id"
-          class="column has-background-light mx-2 section"
+          class="has-background-light mx-2 section mb-4"
         >
           <div class="columns">
-            <div class="column is-half">
+            <div class="column is-one-fifth">
               <figure class="image is-128x128">
                 <img :src="product.picUrl" />
               </figure>
             </div>
-            <div
-              class="column is-flex is-flex-direction-column is-justify-content-space-between is-half"
-            >
+            <div class="column is-four-fifths">
               <p class="mb-2 is-uppercase has-text-weight-bold">
                 {{ product.name }}
               </p>

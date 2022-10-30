@@ -21,6 +21,7 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
         <nuxt-link to="/shop" class="navbar-item">Shop</nuxt-link>
+        <nuxt-link to="/manage-shop" class="navbar-item">Manage shop</nuxt-link>
         <nuxt-link to="/events" class="navbar-item">Events</nuxt-link>
         <nuxt-link to="/news" class="navbar-item">News</nuxt-link>
         <nuxt-link to="/faq" class="navbar-item">FAQ</nuxt-link>
